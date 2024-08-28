@@ -1,0 +1,178 @@
+/* .signup-img {
+  position: absolute;
+  right: 58%;
+  top: 27%;
+  width: 400px;
+  height: 450px;
+}
+
+.signup {
+  display: flex;
+  position: absolute;
+  top: 19%;
+  left: 55%;
+  width: 600px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: #ffffff79;
+  justify-content: space-evenly;
+  line-break: 10px;
+  box-shadow: 5px 5px 5px 5px #0000002e;
+}
+
+.sign-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+
+.sign-group h1 {
+  font-size: 24px;
+  margin-left: 45%;
+  margin-bottom: 7%;
+}
+
+.sign-1 {
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-evenly;
+}
+
+.sign-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.e-mail,
+.e-mail1 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.e-mail input {
+  width: 250px;
+}
+
+.password,
+.password1 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.e-mail input,
+.e-mail1 input,
+.password input,
+.password1 input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/***************     Sign up Button    **************/
+/* .signmit {
+  margin-left: 31%;
+  margin-top: 5%;
+}
+
+.already-text h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 30%;
+}  */
+
+
+
+/***************   MEDIA QUERY FOR 412PX   ******************/
+/*@media screen and (max-width:412px) {
+  .signup-img {
+    position: relative;
+    width: 345px;
+    margin-top: 40%;
+    margin-left: 63%;
+    height: 550px;
+  }
+
+  .signup {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 350px;
+    height: 680px;
+    border-radius: 20px;
+    background-color: #ffffff79;
+    justify-content: space-evenly;
+    line-break: 10px;
+    box-shadow: 5px 5px 5px 5px #0000002e;
+  }
+
+  .sign-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    flex-direction: column;
+  }
+
+
+  .sign-group h1 {
+    font-size: 24px;
+    margin-left: 33%;
+    margin-bottom: 7%;
+  }
+
+  .sign-1 {
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-evenly;
+  }
+
+  .sign-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .e-mail,
+  .e-mail1 {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .e-mail input {
+    width: 250px;
+  }
+
+  .password,
+  .password1 {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .e-mail input,
+  .e-mail1 input,
+  .password input,
+  .password1 input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /***************     Sign up Button    **************/
+
+  /*.signmit {
+    margin-left: 31%;
+    margin-top: 5%;
+  }
+
+  .already-text h1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 9%;
+
+  }
+
+  .foot {
+    margin-top: 30%;
+  }
+}  */

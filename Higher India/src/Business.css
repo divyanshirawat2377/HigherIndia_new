@@ -1,0 +1,634 @@
+.bus-image-container {
+    position: relative;
+    width: 100%;
+
+}
+
+.bus-background-image {
+    width: 100%;
+    height: 450px;
+}
+
+.bus-overlay-text {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+/**********  PARRENT  **************/
+.Bus-parrent {
+    align-items: center;
+}
+
+.bus-parrent-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.bus-parrent-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: -2%;
+}
+
+.bus-parrent-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.bus-child-1 img,
+.bus-child-2 img,
+.bus-child-3 img {
+    width: 70px;
+    height: 70px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-left: 34%;
+}
+
+.bus-child-1 img:hover,
+.bus-child-2 img:hover,
+.bus-child-3 img:hover {
+    opacity: 1;
+}
+
+.busdesc {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    width: 250px;
+    margin-left: -2%;
+    margin-top: 0%;
+    text-align: justify;
+}
+
+.bus-child-1:hover .busdesc,
+.bus-child-2:hover .busdesc,
+.bus-child-3:hover .busdesc {
+    display: block;
+}
+
+.bus-p1,
+.bus-p3 {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bus-p2 {
+    margin-left: 0%;
+    font-size: 14px;
+}
+
+
+/********** BOX AND PLAY *************/
+.box {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    width: 250px;
+    background-color: #ffffff;
+    opacity: 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 0px;
+}
+
+#play {
+    padding: 4vw;
+    background-color: #007ac0cd;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 300px;
+    font-size: 1vw;
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    opacity: 0;
+}
+
+.footer-reserved {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-reserved h1 {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+
+/********* QUERY FORM *********/
+.business-form {
+    position: fixed;
+    top: 11%;
+    left: 74%;
+    width: 395px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    transition: left 2s ease-in-out;
+}
+
+.business-f2 {
+    width: 20px;
+    height: 20px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 3%;
+    background-color: white;
+    border: none;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.business-f2 img {
+    width: 20px;
+    height: 20px;
+}
+
+.bus-query {
+    font-size: 14px;
+    margin-left: 15%;
+    margin-top: -8%;
+}
+
+.bus-query h2 {
+    font-size: 14px;
+}
+
+.bus-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.bus-label label {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-bottom: 6px;
+}
+
+.bus-label input {
+    width: 350px;
+    margin-left: 50px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.bus-label label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 6%;
+}
+
+.bus-label input[type="text"],
+.bus-label input[type="email"],
+.bus-label input[type="tel"],
+.bus-label textarea {
+    width: 340px;
+    margin-left: 5%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-bus {
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+
+/************       MEDIA-Query  ********************/
+@media screen and (max-width: 412px) {
+    .bus-image-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .bus-background-image {
+        width: 100%;
+        height: 260px;
+    }
+
+    .bus-overlay-text {
+        position: absolute;
+        width: 100%;
+        margin-left: 20%;
+        margin-top: 5%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        font-family: Montserrat;
+    }
+
+    /***********PARRENT***************/
+    .Bus-parrent {
+        align-items: center;
+    }
+
+    .bus-parrent-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .bus-parrent-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+
+    .bus-parrent-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    .bus-child-1 img,
+    .bus-child-2 img,
+    .bus-child-3 img {
+        width: 35px;
+        height: 35px;
+        opacity: 0.6;
+        cursor: pointer;
+        margin-left: 34%;
+    }
+
+    .bus-child-1 img:hover,
+    .bus-child-2 img:hover,
+    .bus-child-3 img:hover {
+        opacity: 1;
+    }
+
+    .busdesc {
+        display: none;
+        position: absolute;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        z-index: 1;
+        width: 150px;
+        margin-left: -2%;
+        margin-top: 0%;
+        text-align: justify;
+        font-size: 10px;
+    }
+
+    .bus-child-1:hover .busdesc,
+    .bus-child-2:hover .busdesc,
+    .bus-child-3:hover .busdesc {
+        display: block;
+    }
+
+    .bus-p1,
+    .bus-p3 {
+        font-size: 10px;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .bus-p2 {
+        margin-left: 0%;
+        font-size: 11px;
+        text-align: center;
+    }
+
+
+
+    /********** BOX AND PLAY *************/
+    .box {
+        position: absolute;
+        top: 40%;
+        left: 7%;
+        width: 250px;
+        background-color: #ffffff;
+        opacity: 0;
+        border: 1px solid gray;
+        border-radius: 10px;
+        height: 0px;
+    }
+
+    #play {
+        padding: 4vw;
+        background-color: #007ac0cd;
+        border-radius: 10px;
+        color: #FFFFFF;
+        width: 300px;
+        font-size: 1vw;
+        position: absolute;
+        top: 55%;
+        left: 6%;
+        opacity: 0;
+    }
+
+    /**************     QUERY FORM      **************/
+    .business-form {
+        position: fixed;
+        top: 30%;
+        left: 2%;
+        width: 395px;
+        height: 70%;
+        background-color: white;
+        border: 1px solid gray;
+        transition: left 2s ease-in-out;
+    }
+
+    .business-f2 {
+        width: 20px;
+        height: 20px;
+        color: gray;
+        font-weight: bold;
+        margin-top: 3%;
+        background-color: white;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .business-f2 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .bus-query {
+        font-size: 14px;
+        margin-left: 15%;
+        margin-top: -8%;
+    }
+
+    .bus-query h2 {
+        font-size: 14px;
+    }
+
+    .bus-label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bus-label label {
+        font-size: 12px;
+        margin-left: 30px;
+        margin-bottom: 6px;
+    }
+
+    .bus-label input {
+        width: 350px;
+        margin-left: 50px;
+        text-align: center;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+    }
+
+    .bus-label label {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 6%;
+    }
+
+    .bus-label input[type="text"],
+    .bus-label input[type="email"],
+    .bus-label input[type="tel"],
+    .bus-label textarea {
+        width: 340px;
+        margin-left: 5%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .submit-bus {
+        margin-left: 20%;
+        margin-top: 40px;
+    }
+
+}
+
+
+/****************     MEDIA QUERY FOR 768 PX      *************************/
+@media screen and (min-width:413px) and (max-width:768px) {
+    .bus-image-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .bus-background-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .bus-overlay-text {
+        position: absolute;
+        width: 100%;
+        margin-left: 29%;
+        margin-top: 0%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+        font-family: Montserrat;
+    }
+
+    /*************   PARRENT  ****************/
+    .Bus-parrent {
+        align-items: center;
+    }
+
+    .bus-parrent-1,
+    .bus-parrent-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .bus-parrent-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    .bus-child-1 img,
+    .bus-child-2 img {
+        width: 50px;
+        height: 50px;
+        opacity: 0.6;
+        cursor: pointer;
+        margin-left: 36%;
+    }
+
+    .bus-child-3 img {
+        width: 50px;
+        height: 50px;
+        opacity: 0.6;
+        cursor: pointer;
+        margin-left: 33%;
+    }
+
+    .bus-child-1 img:hover,
+    .bus-child-2 img:hover,
+    .bus-child-3 img:hover {
+        opacity: 1;
+    }
+
+    .busdesc {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #ccc;
+        z-index: 1;
+        width: 250px;
+        margin-left: -2%;
+        margin-top: 0%;
+        text-align: justify;
+    }
+
+    .bus-child-1:hover .busdesc,
+    .bus-child-2:hover .busdesc,
+    .bus-child-3:hover .busdesc {
+        display: block;
+    }
+
+    .bus-p1,
+    .bus-p3 {
+        font-size: 13px;
+        margin-top: 1%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .bus-p2 {
+        margin-left: 0%;
+        font-size: 13px;
+        margin-top: 1%;
+    }
+
+
+
+
+    /***************        QUERY FORM  ******************/
+    .business-form {
+        position: fixed;
+        top: 30%;
+        left: 49%;
+        width: 395px;
+        height: 70%;
+        background-color: white;
+        border: 1px solid gray;
+        transition: left 2s ease-in-out;
+    }
+
+    .business-f2 {
+        width: 20px;
+        height: 20px;
+        color: gray;
+        font-weight: bold;
+        margin-top: 3%;
+        background-color: white;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .business-f2 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .bus-query {
+        font-size: 14px;
+        margin-left: 15%;
+        margin-top: -8%;
+    }
+
+    .bus-query h2 {
+        font-size: 14px;
+    }
+
+    .bus-label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bus-label label {
+        font-size: 12px;
+        margin-left: 30px;
+        margin-bottom: 6px;
+    }
+
+    .bus-label input {
+        width: 350px;
+        margin-left: 50px;
+        text-align: center;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+    }
+
+    .bus-label label {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 6%;
+    }
+
+    .bus-label input[type="text"],
+    .bus-label input[type="email"],
+    .bus-label input[type="tel"],
+    .bus-label textarea {
+        width: 340px;
+        margin-left: 5%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .submit-bus {
+        margin-left: 20%;
+        margin-top: 40px;
+    }
+}
